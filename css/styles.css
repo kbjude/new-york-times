@@ -1,8 +1,13 @@
-.top {
-    padding: 4px 0 15px;
+
+nav {
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
     display: block;
     border: 1px solid grey;
     position: fixed;
+    background-position-x: 0px;
     width: 100%;
     background: white;
     z-index: 100;
@@ -31,6 +36,7 @@
     text-align: center;
     margin-right: 20px;
     margin-top: 9px;
+    font-family: "chomskyregular";
 }
 
 .nav-text {
@@ -46,11 +52,56 @@
     padding: 12px;
     color: antiquewhite;
     border-radius: 4px;
-    margin-top: 0px;
+    margin-top: 3px;
     margin-right: 10px;
 }
 
-.main {
+main{
     position: absolute;
-    margin-top: 55px;
+    top: 100px;
+}
+
+.main-content{
+    width: 600px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{    
+    max-width: 1000px;
+    min-width: 600px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+h1{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 45px;    
+}
+
+figure figcaption{
+    width: 600px;
+    font-size: 14px;
+    color: #444444;
+}
+
+figure span{
+    font-size: 12px;
+    color: #777777;
+}
+
+.main-content a:visited, a:active, a:link{
+    color: #4488ff;
+}
+
+.main-content a:hover{
+    text-decoration: none;
+    color: #4488ff;
 }
