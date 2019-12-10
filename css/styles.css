@@ -1,0 +1,56 @@
+.top {
+    padding: 4px 0 15px;
+    display: block;
+    border: 1px solid grey;
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 100;
+}
+
+.nav-left {
+    float: left;
+    font-size: 30px;
+}
+
+.options-icon {
+    padding: 0px 10px;
+    left: 10px;
+    font-size: 20px;
+}
+
+.search-icon {
+    font-size: 20px;
+    padding: 0px 10px
+}
+
+.nav-centre {
+    position: relative;
+    display: inline-block;
+    margin-left: 350px; 
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 9px;
+}
+
+.nav-text {
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    margin-top: 1px;
+}
+
+.subscribe-btn {
+    background-color: steelblue;
+    font-size: 10px;
+    padding: 12px;
+    color: antiquewhite;
+    border-radius: 4px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.main {
+    position: absolute;
+    margin-top: 55px;
+}
