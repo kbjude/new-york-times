@@ -1,3 +1,7 @@
+body {
+    /* font-size-adjust: 100%; */
+    font-size: 20px;
+    font-family: georgia,'times new roman',times,serif;}
 
 nav {
     margin: 0px;
@@ -5,17 +9,28 @@ nav {
     top: 0px;
     left: 0px;
     display: block;
-    border: 1px solid grey;
+    border: 1px solid ;
     position: fixed;
     background-position-x: 0px;
     width: 100%;
     background: white;
     z-index: 100;
+    text-align: center;
 }
 
 .nav-left {
     float: left;
     font-size: 30px;
+}
+
+.nav-centre {
+    position: relative;
+    display: inline-block;
+    margin-top: 9px;
+}
+
+.nav-right {
+   float: right;
 }
 
 .options-icon {
@@ -27,16 +42,6 @@ nav {
 .search-icon {
     font-size: 20px;
     padding: 0px 10px
-}
-
-.nav-centre {
-    position: relative;
-    display: inline-block;
-    margin-left: 350px; 
-    text-align: center;
-    margin-right: 20px;
-    margin-top: 9px;
-    font-family: "chomskyregular";
 }
 
 .nav-text {
