@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <title>NYT Wannabe</title>
 </head>
+
 <body>
     <nav>
         <div class="nav-left">
@@ -37,10 +38,14 @@
         </header>
         <article>
             <div class="main-content">
-                <h2>By Dennis Overbye</h2>
-                March 17, 2014
-                <div>
-                    <!-- icons -->
+                <h2>By Dennis Overbye</h2>                
+                <div class="btn-social-top">
+                    <p>March 17, 2014</p>
+                    <button type="submit" name="facebook" class="btn-facebook"><i
+                        class="fab fa-facebook-f"></i></button>
+                <button type="submit" name="twitter" class="btn-twitter"><i class="fab fa-twitter"></i></button>
+                <button type="submit" name="email" class="btn-email"><i class="fas fa-envelope"></i></button>
+                <button type="submit" name="share" class="btn-share"><i class="fas fa-share"></i></button>
                 </div>
                 <p>
                     CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named
@@ -99,72 +104,72 @@
                     briefing at the Center for Astrophysics here on Monday and in a set of papers submitted
                     to The Astrophysical Journal.</p>
             </div>
-
-            <div class="container">
-                <!--PLACEHOLDER-->
-                <img src="./assets/inflation-945.png" width="800" height="auto" />
-                <!--PLACEHOLDER-->
-                <div class="box top">
-                    <h6>The Theory of Inflation</h6>
-                    <p>Astronomers have found evidence to support the theory of inflation, which explains
-                        how the universe expanded so uniformly and so quickly in the instant after the Big
-                        Bang 13.8 billion years ago.</p>
-                </div>
-                <div class="box image-row-1"></div>
-                <div class="box image-row-2"></div>
-                <div class="box text-1">
-                    <p><strong>THE UNIVERSE</strong> is just under 14 billion years old. From our position
-                        in the Milky Way galaxy, we can observe a sphere that is now about 92 billion
-                        light-years across. But there's a mystery. Wherever we look, the universe has an
-                        even temperature.</p>
-                </div>
-                <div class="box text-2">
-                    <p><strong>NOT ENOUGH TIME</strong> The universe is not old enough for light to have
-                        traveled the vast distance from one side of the universe to the other, and there
-                        has not been enough time for scattered patches of hot and cold to mix into an even
-                        temperature.</p>
-                </div>
-                <div class="box text-3">
-                    <p><strong>DISTANT COFFEE</strong> At a smaller scale, imagine using a telescope to look
-                        a mile in one direction. You see a coffee cup, and from the amount of steam, you can
-                        estimate its temperature and how much it has cooled.</p>
-                </div>
-                <div class="box text-4">
-                    <p><strong>COFFEE EVERYWHERE</strong> Now turn around and look a mile in the other
-                        direction. You see a similar coffee cup, at exactly the same temperature. Coincidence?
-                        Maybe. But if you see a similar cup in every direction, you might want to look for another
-                        explanation.</p>
-                </div>
-                <div class="box text-5">
-                    <p><strong>STILL NOT ENOUGH TIME</strong> There has not been enough time to carry coffee
-                        cups from place to place before they get cold. But if all the coffee cups were somehow
-                        filled from a single coffee pot, all at the same time, that might explain their even
-                        temperature.</p>
-                </div>
-                <div class="box text-6">
-                    <p><strong>INFLATION</strong> solves this problem. The theory proposes that, less than
-                        a trillionth of a second after the Big Bang, the universe expanded faster than the
-                        speed of light. Tiny ripples in the violently expanding energy field eventually grew
-                        into the large-scale structures of the universe.</p>
-                </div>
-                <div class="box text-7">
-                    <p><strong>FLUCTUATION</strong>Astronomers have now detected evidence of these ancient
-                        fluctuations in swirls of polarized light in the cosmic background radiation, which
-                        is energy left over from the early universe. These are gravitational waves predicted
-                        by Einstein.</p>
-                </div>
-                <div class="box text-8">
-                    <p><strong>EXPANSION</strong>Returning to our coffee, imagine a single, central pot expanding
-                        faster than light and cooling to an even temperature as it expands. That is something
-                        like inflation. And the structure of the universe mirrors the froth and foam of the
-                        original pot.</p>
-                </div>
-                <div class="box background"></div>
-                <p>By LARRY BUCHANAN and JONATHAN CORUM</p>
+            <div class="container-box-header">
+                <h6>The Theory of Inflation</h6>
+                <p>Astronomers have found evidence to support the theory of inflation, which explains
+                    how the universe expanded so uniformly and so quickly in the instant after the Big
+                    Bang 13.8 billion years ago.</p>
             </div>
-
+            <div class="container-box">
+                <div class="box-top">
+                    <div class="box-text-1">
+                        <p><strong>THE UNIVERSE</strong> is just under 14 billion years old. From our position
+                            in the Milky Way galaxy, we can observe a sphere that is now about 92 billion
+                            light-years across. But there's a mystery. Wherever we look, the universe has an
+                            even temperature.</p>
+                    </div>
+                    <div class="box-text-2">
+                        <p><strong>NOT ENOUGH TIME</strong> The universe is not old enough for light to have
+                            traveled the vast distance from one side of the universe to the other, and there
+                            has not been enough time for scattered patches of hot and cold to mix into an even
+                            temperature.</p>
+                    </div>
+                    <div class="box-text-3">
+                        <p><strong>DISTANT COFFEE</strong> At a smaller scale, imagine using a telescope to look
+                            a mile in one direction. You see a coffee cup, and from the amount of steam, you can
+                            estimate its temperature and how much it has cooled.</p>
+                    </div>
+                    <div class="box-text-4">
+                        <p><strong>COFFEE EVERYWHERE</strong> Now turn around and look a mile in the other
+                            direction. You see a similar coffee cup, at exactly the same temperature. Coincidence?
+                            Maybe. But if you see a similar cup in every direction, you might want to look for another
+                            explanation.</p>
+                    </div>
+                </div>
+                <div class="box-bottom">
+                    <div class="box-text-5">
+                        <p><strong>STILL NOT ENOUGH TIME</strong> There has not been enough time to carry coffee
+                            cups from place to place before they get cold. But if all the coffee cups were somehow
+                            filled from a single coffee pot, all at the same time, that might explain their even
+                            temperature.</p>
+                    </div>
+                    <div class="box-text-6">
+                        <p><strong>INFLATION</strong> solves this problem. The theory proposes that, less than
+                            a trillionth of a second after the Big Bang, the universe expanded faster than the
+                            speed of light. Tiny ripples in the violently expanding energy field eventually grew
+                            into the large-scale structures of the universe.</p>
+                    </div>
+                    <div class="box-text-7">
+                        <p><strong>FLUCTUATION</strong> Astronomers have now detected evidence of these ancient
+                            fluctuations in swirls of polarized light in the cosmic background radiation, which
+                            is energy left over from the early universe. These are gravitational waves predicted
+                            by Einstein.</p>
+                    </div>
+                    <div class="box-text-8">
+                        <p><strong>EXPANSION</strong> Returning to our coffee, imagine a single, central pot expanding
+                            faster than light and cooling to an even temperature as it expands. That is something
+                            like inflation. And the structure of the universe mirrors the froth and foam of the
+                            original pot.</p>
+                    </div>
+                </div>                
+            </div>
+            <div class="container-box-footer">
+                <svg class="container-box-line">
+                    <line x1="0" y1="0" x2="50" y2="0" />
+                </svg>
+                    <p>By LARRY BUCHANAN and JONATHAN CORUM</p>
+            </div>
             <div class="main-content">
-                <h3> By LARRY BUCHANAN and JONATHAN CORUM</h3>
 
                 <p>Dr. Kovac said the chance that the results were a fluke was only one in
                     10 million.</p>
@@ -185,10 +190,12 @@
                     Stanford colleague and a member of Dr. Kovac’s team,
                     <a href="#">knocked on his door with a bottle of Champagne</a> to
                     tell him the news.</p>
-                <iframe width="700" height="auto" src="https://www.youtube.com/embed/ZlfIVEy_YOA" frameborder="0"
-                    allowfullscreen></iframe>
+                <iframe width="600" height="340" src="https://www.youtube.com/embed/ZlfIVEy_YOA" 
+                frameborder="0" allowfullscreen></iframe>
+                <div class="video-footer">
                 <p><strong>Stanford Professor Andrei Linde celebrates physics breakthrough</strong>
-                    Video by StanfordUniversity</p>
+                    <span> Video by StanfordUniversity</span></p>
+                </div>
                 <p>Confused, Dr. Linde called out to his wife, asking if she had ordered anything.</p>
                 <p>“And then I told him that in the beginning we thought that this was a delivery
                     but we did not think that we ordered anything, but I simply forgot that actually
@@ -288,16 +295,18 @@
                     are swept away, forever out of our view.</p>
                 <p>“If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was
                     not part of the team, “you wind up at inflation.”</p>
-                <p class="summary">A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New
+                <p class="summary">A version of this article appears in print on March 18, 2014, Section A, Page 1
+                    of the New
                     york edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun.
                     <a>Order Reprints</a> |
                     <a>Today's Paper</a> |
                     <a>Subscribe</a></p>
-                <div class= "btn-container">
-                    <button type="submit" name="comments" class = "btn-more">READ 615 COMMENTS</button>
+                <div class="btn-container">
+                    <button type="submit" name="comments" class="btn-more">READ 615 COMMENTS</button>
                 </div>
-                <div class = "btn-social-media">
-                    <button type="submit" name="facebook" class="btn-facebook"><i class="fab fa-facebook-f"></i></button>
+                <div class="btn-social-bottom">
+                    <button type="submit" name="facebook" class="btn-facebook"><i
+                            class="fab fa-facebook-f"></i></button>
                     <button type="submit" name="twitter" class="btn-twitter"><i class="fab fa-twitter"></i></button>
                     <button type="submit" name="email" class="btn-email"><i class="fas fa-envelope"></i></button>
                     <button type="submit" name="share" class="btn-share"><i class="fas fa-share"></i></button>
@@ -307,36 +316,7 @@
 
 
         </article>
-        <aside>
-            <div>
-                <h3>Sign up for Science Times</h3>
-                We’ll bring you stories that capture the wonders of the human body, nature and the cosmos.
-                <button type="submit"> SIGN UP</button>
-            </div>
-            <div>
-                <h3>Editors’ Picks</h3>
-                <hr>
-                <figure>
-                    <div>
-                        <img src="./assets/editors-probiotics.jpg" alt=" Probiotics">
-                        <figcaption> <a href="#">What are the Benefits of Probiotics</a></figcaption>
-                    </div>
-                    <div>
-                        <img src="./assets/editors-soccer.jpg" alt="soccer">
-                        <figcaption> <a href="#"> The Soccer Club Vanished. They kept coming </a></figcaption>
-                    </div>
-                    <div>
-                        <img src="./assets/editors-nfl.jpg" alt="Football">
-                        <figcaption> <a href="#"> N.F.L Week 14. What we learned </a> </figcaption>
-                    </div>
-                    <div>
-                        <img src="./assets/editors-scenes.png" alt="">
-                        <figcaption> <a href="#">PAID POST. EUDEMARS PIGUET. Three artist Reimagine the nature
-                                of time in Tokyo</a> </figcaption>
-                    </div>
-                </figure>
-            </div>
-        </aside>
+        
         <section class="img-container">
             <hr>
             <h3> <a href="#"> More in Space & Cosmos </a> </h3>

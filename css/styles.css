@@ -123,11 +123,24 @@ figure span{
     color: #4488ff;
 }
 
+
+.video-footer p{
+    text-align: left;
+    width: 600px;
+    font-size: 14px;
+    color: #444444;
+}
+
+.video-footer span{
+    font-size: 12px;
+    color: #777777;
+}
+
 /* #endregion */
 
 /* #region Container */
 
-.container{
+.container-box{
     width: 945px;
     min-width: 945px;
     height: 576px;
@@ -137,7 +150,43 @@ figure span{
     background-size: 945px 576px;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+}
 
+.container-box-header{
+    width: 945px;
+    min-width: 945px;    
+    margin: 60px auto 20px auto;
+}
+
+.container-box-header h6{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}    
+
+.container-box-header p{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #777777;
+}
+
+.container-box-line{
+    width: 50px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+.container-box-footer{
+    width: 945px;
+    min-width: 945px;
+    margin: 20px auto 60px auto;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
 
 .box-top{
@@ -156,6 +205,13 @@ figure span{
     height: 25%;
 }
 
+.box-text-1, .box-text-5 {
+    position: relative;
+    float: left;    
+    width: 23%;
+    height: 100%;
+}
+
 .box-text-2, 
 .box-text-3, 
 .box-text-4, 
@@ -169,12 +225,7 @@ figure span{
     height: 100%;   
 }
 
-.box-text-1, .box-text-5 {
-    position: relative;
-    float: left;    
-    width: 23%;
-    height: 100%;
-}
+/* #endregion */
 
 .satelite {
     margin: 0;
@@ -195,7 +246,13 @@ figure span{
    color: white;
 }
 
-.btn-social-media {
+.btn-media-top {
+    
+    position: relative;
+    padding: 12px;
+}
+
+.btn-social-bottom {
     float: right;
     position: relative;
     padding: 12px;
