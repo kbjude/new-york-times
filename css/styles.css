@@ -1,5 +1,4 @@
 body {
-    /* font-size-adjust: 100%; */
     font-size: 20px;
     font-family: georgia,'times new roman',times,serif;}
 
@@ -9,7 +8,7 @@ nav {
     top: 0px;
     left: 0px;
     display: block;
-    border: 1px solid ;
+    border: 1px solid #cccccc;
     position: fixed;
     background-position-x: 0px;
     width: 100%;
