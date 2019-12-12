@@ -74,7 +74,7 @@ nav {
 /* #region Main */
 
 main{
-    position: absolute;
+    position: relative;
     top: 100px;
 }
 
@@ -247,7 +247,6 @@ figure span{
 }
 
 .btn-media-top {
-    
     position: relative;
     padding: 12px;
 }
