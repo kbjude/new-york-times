@@ -272,8 +272,57 @@ figure span{
     height: 30px;
 }
 
-
-
-
-
 /* #endregion */
+
+/* #region footer */
+
+}
+.sidebar{
+    float: right;
+}
+
+.img-container {
+    float: left;
+}
+
+.description {
+    font-size: 10px;
+}
+
+.theme {
+    font-size: 17px;
+}
+
+.time {
+    font-size: 14px;
+    color: gray;
+}
+
+.image1 {
+    float: left;
+}
+
+.image2, .image3 {
+    margin-top: -33%;
+    width: auto;
+    height: auto;
+    padding: 22px;
+  
+}
+
+.image3 {
+    float: right;
+}
+
+.image2 {
+    display: inline;
+    margin-left: 15px;
+    padding: 22px;
+}
+
+.pic1, 
+.pic2, 
+.pic3 {
+    width: 300px;
+}
+/* #endregion*/
