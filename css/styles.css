@@ -275,54 +275,47 @@ figure span{
 /* #endregion */
 
 /* #region footer */
-
-}
-.sidebar{
-    float: right;
-}
-
 .img-container {
+    margin: 0px;
+    width: 100%;
+   background-color: #4488ff;
+}
+
+.images {
     float: left;
+    background-color: aquamarine;
 }
 
-.description {
-    font-size: 10px;
-}
-
-.theme {
-    font-size: 17px;
-}
-
-.time {
-    font-size: 14px;
-    color: gray;
+.side-bar {
+    float: right;
+    background-color: aquamarine;
 }
 
 .image1 {
     float: left;
 }
 
-.image2, .image3 {
-    margin-top: -33%;
-    width: auto;
-    height: auto;
-    padding: 22px;
-  
+.image2 {
+    position: relative;
+    display: inline-block;
+    margin-top: -35px;
+    margin-left: 300px;
 }
 
 .image3 {
     float: right;
 }
 
-.image2 {
-    display: inline;
-    margin-left: 15px;
-    padding: 22px;
+.image1, .image2 {
+    border: 1px solid black;
+    display: block;
+    font-size: 10px;
+    block-size: 20px;
+    padding: 10px;
+    position: relative;
 }
 
-.pic1, 
-.pic2, 
-.pic3 {
-    width: 300px;
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6 {
+    width: 20%;
 }
 /* #endregion*/
