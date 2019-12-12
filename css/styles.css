@@ -1,15 +1,18 @@
+/*
+Title hierarchy
+h1 - main title
+h2 - figure title
+h3 - article sub-titles
+h4 - sugestion titles
+h5 -  footer titles
+h6 - suggested article titles
+*/
+
 body {
     font-size: 20px;
     font-family: nyt-cheltenham, georgia,'times new roman',times,serif;}
 
 /* #region NavBar */
-
-/* @font-face {
-    font-family: "nyt-cheltenham";
-    src: local("☺︎"), url("https://nytimes.com/fonts/nyt-cheltenham-300-normal.woff") format("woff");
-    font-style: normal;
-    font-weight: 300;
-  } */
 
 nav {
     margin: 0px;
@@ -136,6 +139,52 @@ figure span{
     color: #777777;
 }
 
+.satelite {
+    margin: 0;
+}
+
+.summary {
+    font-size: 12px;
+}
+
+.btn-container {
+    display: inline;
+    
+}
+
+.btn-more {
+   width: 300px;
+   font-size: 14px;
+   color: white;
+}
+
+.btn-media-top {
+    position: relative;
+    padding: 12px;
+}
+
+.btn-social-bottom {
+    float: right;
+    position: relative;
+    padding: 12px;
+}
+.btn-facebook:active,
+.btn-twitter:active,
+.btn-share:active,
+.btn-email:active,
+.btn-facebook, 
+.btn-twitter, 
+.btn-email, 
+.btn-share {
+    border-radius: 33px;
+    border: 0;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #cccccc;
+    width: 30px;
+    height: 30px;
+}
+
 /* #endregion */
 
 /* #region Container */
@@ -226,96 +275,85 @@ figure span{
 
 /* #endregion */
 
-.satelite {
+/* #region footers*/
+
+.suggestions{
+    max-width: 1000px;
+    min-width: 600px;
+    height: 850px;
+    margin: 100px auto;
+}
+
+.extra-articles{
+    box-sizing: border-box;
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.most-popular{
+    box-sizing: border-box;
+    float: right;    
+    width: 30%;
+    height: 100%;    
+}
+
+.space-cosmos{
+    box-sizing: border-box;
+    width: 100%;
+    height: 66%;    
+}
+
+.editor-picks{
+    box-sizing: border-box; 
+    width: 100%;
+    height: 34%;
+}
+
+.suggestions-title{
+    box-sizing: border-box;
+    display: inline-block; 
+    width: 100%;
+    height: 50px;  
+      
+}
+
+.thumbnail{
+    box-sizing: border-box;
+    display: inline-block;   
+    width: 32%;
+    height: 250px;    
+}
+
+.thumbnail h6{
+  margin: 0;
+  padding: 0;
+}
+
+.suggested-credits{
     margin: 0;
+    padding: 0 15px;
+    font-size: 10px;
+    color: #777777;
+    text-align: right;    
 }
 
-.summary {
-    font-size: 12px;
+.suggested-date{
+
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
 
-.btn-container {
-    display: inline;
-    
-}
+.popular-titles{
+    margin: 20px;
+    border-top: 1px solid #777777;
+    font-size: 16px;
 
-.btn-more {
-   width: 300px;
-   font-size: 14px;
-   color: white;
-}
-
-.btn-media-top {
-    position: relative;
-    padding: 12px;
-}
-
-.btn-social-bottom {
-    float: right;
-    position: relative;
-    padding: 12px;
-}
-.btn-facebook:active,
-.btn-twitter:active,
-.btn-share:active,
-.btn-email:active,
-.btn-facebook, 
-.btn-twitter, 
-.btn-email, 
-.btn-share {
-    border-radius: 33px;
-    border: 0;
-    cursor: pointer;
-    font-size: 15px;
-    background-color: #cccccc;
-    width: 30px;
-    height: 30px;
 }
 
 /* #endregion */
 
-/* #region footer */
-.img-container {
-    margin: 0px;
-    width: 100%;
-   background-color: #4488ff;
-}
+/* #region footer 
 
-.images {
-    float: left;
-    background-color: aquamarine;
-}
-
-.side-bar {
-    float: right;
-    background-color: aquamarine;
-}
-
-.image1 {
-    float: left;
-}
-
-.image2 {
-    position: relative;
-    display: inline-block;
-    margin-top: -35px;
-    margin-left: 300px;
-}
-
-.image3 {
-    float: right;
-}
-
-.image1, .image2 {
-    border: 1px solid black;
-    display: block;
-    font-size: 10px;
-    block-size: 20px;
-    padding: 10px;
-    position: relative;
-}
-
-.pic1, .pic2, .pic3, .pic4, .pic5, .pic6 {
-    width: 20%;
-}
-/* #endregion footer*/
+ #endregion footer*/
