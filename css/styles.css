@@ -63,6 +63,7 @@ nav {
 }
 
 .subscribe-btn, .btn-more {
+    cursor: pointer;
     background-color: steelblue;
     font-size: 10px;
     padding: 12px;
@@ -352,32 +353,92 @@ figure span{
 
 }
 
-.bottom {
-    box-sizing: border-box;
-    width: 100%;
+/* */
+
+.footer-elements {
+    max-width: 1000px;
+    min-width: 600px;
+    margin: 0 auto 30px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 
 .news-bar {
-    margin-top: 0;
-    display: inline-block;
-    text-align: justify;
-    margin-right: 70px;
+    box-sizing: border-box;
+    display: inline-block;  
+    vertical-align: top;
+    width: 16%;
+}
+
+.news-bar-subscribe{
+    float: right;
+    padding-left: 15px;
+    border-left: 1px solid #777777;
 }
 
 .news-bar a {
     display: block;
     text-decoration: none;
-    color: #777777;
-    font-size: 17px;
+    color: black;
+    padding-top: 7px;
 }
 
-.top-elements-right {
+.news-bar a:hover{
+    text-decoration: underline;
+}
+
+.footer-elements h5{
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+.footer-top-element{
+    max-width: 1000px;
+    min-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-top: 2px double #cccccc;
+    padding-top: 10px;
+}
+
+.footer-top-element a{
+    cursor: pointer;  
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
     float: right;
-    position: relative;
+    color: cornflowerblue; 
+}
+
+.footer-bottom-element{
+    max-width: 1000px;
+    min-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    text-align: center; 
+    border-top: 1px solid #777777;
+}
+
+.footer-bottom-element a{
+    text-decoration: none;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.footer-bottom-element a:hover{
+    text-decoration: underline;
+}
+
+.newsbar-break-line{
+    width: 150px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    stroke: #777777;
+    stroke-width: 1px;
 }
 
 /* #endregion */
-
-/* #region footer 
-
- #endregion footer*/
