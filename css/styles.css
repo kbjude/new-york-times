@@ -359,14 +359,18 @@ figure span{
 }
 
 .news-bar {
-    margin: 0;
-    padding: 0;
+    margin-top: 0;
     display: inline-block;
     border: 1px solid black;
+    text-align: justify;
+    margin-right: 70px;
 }
 
 .news-bar a {
     display: block;
+    text-decoration: none;
+    color: #777777;
+    font-size: 17px;
 }
 
 .top-elements {
