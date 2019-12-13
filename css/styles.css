@@ -361,7 +361,6 @@ figure span{
 .news-bar {
     margin-top: 0;
     display: inline-block;
-    border: 1px solid black;
     text-align: justify;
     margin-right: 70px;
 }
@@ -371,10 +370,6 @@ figure span{
     text-decoration: none;
     color: #777777;
     font-size: 17px;
-}
-
-.top-elements {
-    border: 1px solid red;
 }
 
 .top-elements-right {
