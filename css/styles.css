@@ -352,6 +352,32 @@ figure span{
 
 }
 
+.bottom {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.news-bar {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.news-bar a {
+    display: block;
+}
+
+.top-elements {
+    border: 1px solid red;
+}
+
+.top-elements-right {
+    float: right;
+    position: relative;
+}
+
 /* #endregion */
 
 /* #region footer 
