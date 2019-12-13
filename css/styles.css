@@ -441,4 +441,51 @@ figure span{
     stroke-width: 1px;
 }
 
+.main-content-link a:hover {
+    text-decoration: none;
+    color: #555555;  
+}
+
+.author-details {
+    width: 600px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.author-link {
+    font-size: 16px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    
+} 
+
+.author-link a:hover {
+    text-decoration: none;
+    color: #4488ff;
+}
+
+.author-link a:visited, a:active, a:link {
+    color: #4488ff;
+}
+
+.btn-social-top {
+    width: 600px;
+    margin-top: 20px;
+    display: inline-block;  
+
+}
+
+.page-date {
+    float: left;
+}
+
+.buttons-right {
+    float: right;
+}
+
+.svg-button {
+   color: #cccccc;
+   margin-top: 10px;
+}
+
 /* #endregion */
