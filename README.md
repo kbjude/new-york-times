@@ -1,10 +1,10 @@
-# HTML forms
+# Positioning and Floating Elements
 
-> This is the second project of the Microverse.
+> This is the third project of the Microverse Courses.
 
 ![screenshot](./assets/app_screenshot.jpg)
 
-Replicating Youtube video page appearance by using HTML & CSS.
+Replicating a New York Times article by using HTML & CSS.
 
 ## Built With
 
@@ -14,7 +14,6 @@ Replicating Youtube video page appearance by using HTML & CSS.
 ## GitHub Repo
 
 - https://github.com/kbjude/new-york-times
-
 
 
 

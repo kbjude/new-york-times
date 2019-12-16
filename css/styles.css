@@ -3,9 +3,9 @@ body {
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
 }
 
-/* #region NavBar */
+/* #region header */
 
-nav {
+header {
   margin: 0;
   padding: 0;
   top: 0;
@@ -20,18 +20,18 @@ nav {
   text-align: center;
 }
 
-.nav-left {
+.header-left {
   float: left;
   font-size: 30px;
 }
 
-.nav-centre {
+.header-centre {
   position: relative;
   display: inline-block;
   margin-top: 9px;
 }
 
-.nav-right {
+.header-right {
   float: right;
 }
 
@@ -46,7 +46,7 @@ nav {
   padding: 0 10px;
 }
 
-.nav-text {
+.header-text {
   font-size: 15px;
   padding-bottom: 10px;
   position: relative;
@@ -81,7 +81,7 @@ main {
   margin-right: auto;
 }
 
-header {
+.top-figure {
   max-width: 1000px;
   min-width: 600px;
   text-align: left;
@@ -196,7 +196,7 @@ a.author-link:hover {
   cursor: pointer;
 }
 
-.header-img {
+.top-img {
   cursor: pointer;
 }
 
@@ -211,7 +211,11 @@ a.author-link:hover {
   padding-top: 7px;
 }
 
-.footer-top-element a {
+#nyt-bottom-logo {
+  float: left;
+}
+
+.mapsite-top-element a {
   cursor: pointer;
   font-size: 11px;
   font-family: Arial, Helvetica, sans-serif;
@@ -219,7 +223,7 @@ a.author-link:hover {
   color: cornflowerblue;
 }
 
-.footer-bottom-element a {
+.mapsite-bottom-element a {
   text-decoration: none;
   color: #555;
   font-family: Arial, Helvetica, sans-serif;
@@ -227,7 +231,7 @@ a.author-link:hover {
   padding: 3px;
 }
 
-.footer-bottom-element a:hover {
+.mapsite-bottom-element a:hover {
   text-decoration: underline;
 }
 
@@ -242,6 +246,18 @@ a.author-link:hover {
 .main-content a:hover {
   text-decoration: none;
   color: #48f;
+}
+
+footer p {
+  display: inline;
+  font-size: 14px;
+}
+
+footer span {
+  float: right;
+  padding-top: 7px;
+  font-size: 10px;
+  font-weight: bolder;
 }
 
 .video-footer p {
@@ -392,7 +408,7 @@ a.author-link:hover {
 
 /* #endregion */
 
-/* #region footers */
+/* #region underside */
 
 .suggestions {
   max-width: 1000px;
@@ -428,6 +444,7 @@ a.author-link:hover {
 }
 
 .suggestions-title {
+  margin-top: 50px;
   box-sizing: border-box;
   display: inline-block;
   width: 100%;
@@ -469,10 +486,10 @@ a.author-link:hover {
   cursor: pointer;
 }
 
-.footer-elements {
+.mapsite-elements {
   max-width: 1000px;
   min-width: 600px;
-  margin: 0 auto 30px auto;
+  margin: 30px auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
 }
@@ -490,12 +507,12 @@ a.author-link:hover {
   border-left: 1px solid #777;
 }
 
-.footer-elements h5 {
+.mapsite-elements h5 {
   margin: 0;
   padding: 0 0 5px 0;
 }
 
-.footer-top-element {
+.mapsite-top-element {
   max-width: 1000px;
   min-width: 600px;
   margin-left: auto;
@@ -505,7 +522,7 @@ a.author-link:hover {
   padding-top: 10px;
 }
 
-.footer-bottom-element {
+.mapsite-bottom-element {
   max-width: 1000px;
   min-width: 600px;
   margin-left: auto;
@@ -604,6 +621,23 @@ a.aside-suggestion-title:hover {
 .aside-suggestions img {
   float: left;
   margin: 5px;
+}
+
+footer {
+  cursor: pointer;
+  bottom: 0;
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  border-top: 1px solid black;
+  background: white;
+  text-align: center;
+}
+
+.footer-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
 }
 
 /* #endregion */
