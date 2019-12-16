@@ -416,7 +416,8 @@ a.author-link:hover{
     display: inline-block;   
     width: 32%;
     height: 250px;  
-    cursor: pointer;  
+    cursor: pointer;
+    vertical-align: top;
 }
 
 .thumbnail h6{
