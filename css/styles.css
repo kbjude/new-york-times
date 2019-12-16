@@ -323,7 +323,8 @@ figure span{
     box-sizing: border-box;
     display: inline-block;   
     width: 32%;
-    height: 250px;    
+    height: 250px;  
+    cursor: pointer;  
 }
 
 .thumbnail h6{
@@ -350,6 +351,7 @@ figure span{
     margin: 20px;
     border-top: 1px solid #777777;
     font-size: 16px;
+    cursor: pointer;
 
 }
 
@@ -498,6 +500,14 @@ figure span{
     float: right;
     margin-left: 5px;
     vertical-align: bottom;
+    cursor: pointer;
+}
+
+.header-img {
+    cursor: pointer;
+}
+
+.center-img {
     cursor: pointer;
 }
 
