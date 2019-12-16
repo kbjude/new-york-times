@@ -1,8 +1,8 @@
 /*
 Title hierarchy
 h1 - main title
-h2 - figure title
-h3 - article sub-titles
+h2 - article sub-titles
+h3 - aside titles
 h4 - sugestion titles
 h5 -  footer titles
 h6 - suggested article titles
@@ -107,6 +107,12 @@ h1{
     font-size: 45px;    
 }
 
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 figure figcaption{
     width: 600px;
     font-size: 14px;
@@ -118,9 +124,95 @@ figure span{
     color: #777777;
 }
 
-.main-content a:visited, a:active, a:link{
-    color: #4488ff;
+.author-details {
+    width: 600px;       
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.author-span {
+    font-size: 14px;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+} 
+
+
+a.author-link:link{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+a.author-link:visited{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+a.author-link:active{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+a.author-link:hover{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #555555;
+}
+
+.btn-social-top {
+    width: 600px;
+    margin-top: 20px;
+    display: inline-block; 
+}
+
+.page-date {
+    float: left;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons-right {
+    float: right;
+}
+
+.svg-button {
+   color: #cccccc;
+   margin-top: 10px;
+}
+
+.icon-bookmark {
+    padding: 5px;
+    font-size: 24px;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.icon-comments {
+    float: right;
+    margin-left: 5px;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.header-img {
+    cursor: pointer;
+}
+
+.center-img {
+    cursor: pointer;
+}
+
+.main-content a:visited{color: #4488ff;}
+.main-content a:active{color: #4488ff;}
+.main-content a:link{color: #4488ff;}
 
 .main-content a:hover{
     text-decoration: none;
@@ -355,8 +447,6 @@ figure span{
 
 }
 
-/* */
-
 .footer-elements {
     max-width: 1000px;
     min-width: 600px;
@@ -443,72 +533,86 @@ figure span{
     stroke-width: 1px;
 }
 
-.main-content-link a:hover {
-    text-decoration: none;
-    color: #555555;  
+/* #endregion */
+
+/* #region aside */
+
+aside{
+    float: right;
+    width: 200px; 
 }
 
-.author-details {
-    width: 600px;
-    display: inline-block;
-    margin-bottom: 20px;
+@media screen and (max-width: 1030px){
+    aside{
+        visibility: hidden;
+        height: 10px;
+    }
 }
 
-.author-link {
-    font-size: 16px;
-    color: gray;
+.aside-signup{
+    margin-top: 500px;
+    text-align: center;
+}
+
+.aside-signup h3{
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    
-} 
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
 
-.author-link a:hover {
+.aside-signup p{
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
+}
+
+.aside-signup button{
+    width: 180px;
+}
+
+.aside-suggestions{
+    margin-top: 500px;
+}
+
+.aside-suggestions h3{        
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -15px;  
+    padding: 5px;  
+}
+
+.aside-line{
+    width: 180px;
+    height: 1px;   
+    stroke: black;
+    stroke-width: 1px;
+}
+
+.aside-suggestion-box{
+    width: 200px;
+    height: 80px;    
+}
+
+a.aside-suggestion-title{
+    padding-top: 10px;
+    font-size: 12px; 
+    line-height: 13px;   
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
     text-decoration: none;
-    color: #4488ff;
+    display: block;
 }
 
-.author-link a:visited, a:active, a:link {
-    color: #4488ff;
+a.aside-suggestion-title:hover{
+    text-decoration: underline;
 }
 
-.btn-social-top {
-    width: 600px;
-    margin-top: 20px;
-    display: inline-block; 
-}
-
-.page-date {
+.aside-suggestions img{
     float: left;
-}
-
-.buttons-right {
-    float: right;
-}
-
-.svg-button {
-   color: #cccccc;
-   margin-top: 10px;
-}
-
-.icon-bookmark {
-    padding: 5px;
-    font-size: 24px;
-    vertical-align: bottom;
-    cursor: pointer;
-}
-
-.icon-comments {
-    float: right;
-    margin-left: 5px;
-    vertical-align: bottom;
-    cursor: pointer;
-}
-
-.header-img {
-    cursor: pointer;
-}
-
-.center-img {
-    cursor: pointer;
+    margin: 5px;
 }
 
 /* #endregion */
