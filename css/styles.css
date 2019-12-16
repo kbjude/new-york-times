@@ -471,8 +471,7 @@ figure span{
 .btn-social-top {
     width: 600px;
     margin-top: 20px;
-    display: inline-block;  
-
+    display: inline-block; 
 }
 
 .page-date {
@@ -486,6 +485,20 @@ figure span{
 .svg-button {
    color: #cccccc;
    margin-top: 10px;
+}
+
+.icon-bookmark {
+    padding: 5px;
+    font-size: 24px;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.icon-comments {
+    float: right;
+    margin-left: 5px;
+    vertical-align: bottom;
+    cursor: pointer;
 }
 
 /* #endregion */
